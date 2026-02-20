@@ -1,0 +1,20 @@
+###########################
+# efficient_dv parameters #
+###########################
+
+# make sure that all files and paths are present within the 'WGS_mainpath'
+
+WGS_mainpath="/mnt/A220E42B20E4085D/analysis/08_genomics"
+ref_fasta="00_Homo_sapiens_assembly38/Homo_sapiens_assembly38.fasta"
+ref_dict="00_Homo_sapiens_assembly38/Homo_sapiens_assembly38.dict"
+dbsnp="00_Homo_sapiens_assembly38/Homo_sapiens_assembly38.dbsnp138.vcf"
+exome_twist="00_Homo_sapiens_assembly38/exome.twist.bed"
+LCR_hs38="00_Homo_sapiens_assembly38/LCR-hs38.bed"
+mappability="00_Homo_sapiens_assembly38/mappability.0.bed"
+hmers_7_and_higher="00_Homo_sapiens_assembly38/hmers_7_and_higher.bed"
+ug_hcr="00_Homo_sapiens_assembly38/ug_hcr.bed"
+params_ini_template="00_resources/params.ini"
+
+# ANNOVAR parameters
+annovar_path="00_resources/annovar"
+humandb="00_resources/annovar/humandb"
